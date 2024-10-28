@@ -13,7 +13,8 @@ jobs:
       uses: devatherock/minify-js@v3.1.0
       with:
         directory: 'rule34_xxx/index.js' # (OPTIONAL)
-        output: 'minify/rule34_xxx.min.js' # (OPTIONAL)
+        output: 'minify/tmp/rule34_xxx/' # (OPTIONAL)
+        add_suffix: false
 
     - name: lwd script test
       run: ./user-script-info.sh
