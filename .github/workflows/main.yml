@@ -9,7 +9,8 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - uses: jossydevers/minify-js@v1.0.0
+    - name: HTML/CSS/JS Minifier
+      uses: devatherock/minify-js@v3.1.0
       with:
         directory: 'rule34_xxx/index.js' # (OPTIONAL)
         output: 'minify/rule34_xxx' # (OPTIONAL)
