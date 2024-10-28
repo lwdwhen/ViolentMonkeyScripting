@@ -10,7 +10,7 @@ jobs:
     - uses: actions/checkout@v4
     
     - name: HTML/CSS/JS Minifier
-      uses: devatherock/minify-js
+      uses: devatherock/minify-js@v3.1.0
       with:
         directory: 'rule34_xxx/index.js' # (OPTIONAL)
         output: 'minify/rule34_xxx.min.js' # (OPTIONAL)
