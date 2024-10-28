@@ -17,6 +17,6 @@ jobs:
         add_suffix: false
 
     - name: lwd script test
-      run: ./user-script-info.sh
+      run: sudo ./user-script-info.sh
 
     - uses: stefanzweifel/git-auto-commit-action@v5
