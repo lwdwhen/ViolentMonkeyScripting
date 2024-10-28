@@ -1,7 +1,68 @@
-body{
-    background-color: darkslateblue !important;
+h2#site-title {
+	display: none;
 }
 
-h2#site-title{
-    display: none;
+#header {
+	margin: 0 !important;
+}
+
+#content {
+	padding: 0 8px 30px !important;
+}
+
+
+#post-list .sidebar {
+	max-height: 1350px;
+	overflow: hidden !important;
+}
+
+.sidebar {
+	width: 200px !important;
+	min-width: 200px !important;
+	max-width: 200px !important;
+	margin-right: 8px !important;
+}
+
+.tag-search {
+	width: 100% !important;
+}
+
+.content br {
+	display: none;
+}
+
+.thumb {
+	margin: 8px 2px;
+}
+
+.sidebarRight {
+	display: none;
+}
+
+#right-col.content {
+	width: 100%;
+}
+
+#right-col.content .flexi {
+	width: 100%;
+	justify-content: center !important;
+}
+
+#image {
+	max-height: 94vh;
+	max-width: 86vw;
+	height: auto;
+	width: auto;
+}
+
+#status-notices{
+	display: none;
+}
+
+tile[lwd] {
+	width: 16px;
+	height: 16px;
+}
+tile[lwd] sgv {
+	scale: 1.3;
 }
