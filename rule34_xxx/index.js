@@ -5,7 +5,7 @@
 // @resource    rule.css https://github.com/lwdwhen/ViolentMonkeyScripting/raw/refs/heads/main/rule.css
 // @grant       GM.getResourceText
 // @grant       GM.addStyle
-// @version     1.1
+// @version     1.2
 // ==/UserScript==
 
 GM.addStyle(GM.getResourceText("rule.css"))
