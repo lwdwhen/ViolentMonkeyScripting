@@ -1,3 +1,7 @@
 body{
     background-color: darkslateblue !important;
 }
+
+h2#site-title{
+    display: none;
+}
